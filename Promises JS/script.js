@@ -105,8 +105,9 @@ function placeOrder(order) {
 
 
   function serveOrder(order) {
-    let userAdjective = prompt("A new chat session has opened!");
-    alert (userAdjective);
+    //let userAdjective = prompt("A new chat session has opened!");
+    //alert (userAdjective);
+    alert("A new chat session has opened!");
     order.element.innerHTML = `<span>[${order.id}] <b>Helped</b></span>`;
     //window.location.href = "https://discord.com/channels/748656649287368704/750092383487787008";
     window.open('https://discord.com/channels/748656649287368704/750092383487787008','_blank');
