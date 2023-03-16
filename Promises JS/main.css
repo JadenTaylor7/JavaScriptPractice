@@ -1,0 +1,64 @@
+h1 {
+    border: 3px solid black;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* default for most things */
+body {
+    margin: auto;
+    text-align: center;
+}
+/* end default for most things*/
+
+.bulleted-list {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+.space {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-input {
+    width: 65%;
+    height: 35px;
+    border: 3px solid black;
+}
+
+/* button code */
+button {
+    margin: auto;
+    background-color: #0a66c2;
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    min-height: 35px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+button:hover {
+    height: 42px;
+    font-size: 19px;
+    background-color: #0a66c2, #87c9ca;
+}
+/* End button code */
+
+h2 {
+    margin-left: 0%;
+    text-align: left;
+} 
+
+/* people in line */
+.queue-line {
+    margin-left: 0%;
+    text-align: left;
+}
+/* people in line */
